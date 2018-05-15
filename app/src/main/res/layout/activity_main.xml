@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ahmedhesham.ramadankareem.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/allMuslemTextView"
+        android:layout_below="@id/ramadanKareemTextView"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/crescent" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fanose" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/organizerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#38EFFF"
+            android:fontFamily="@font/"
+            android:padding="8dp"
+            android:text="للمشتركين و القائمين على"
+            android:textAlignment="center"
+            android:textColor="#4E26E8"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/mobadra" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ramadanKareemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#4E26E8"
+        android:fontFamily="@font/lemonada_light"
+        android:padding="8dp"
+        android:text="رمـضـان كـريـم"
+        android:textAlignment="center"
+        android:textColor="#BFFFEC"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/allMuslemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/congTextView"
+        android:layout_centerHorizontal="true"
+        android:background="#603813"
+        android:fontFamily="@font/reem_kufi"
+        android:padding="4dp"
+        android:text="وجميع الأمة الإسلامية"
+        android:textAlignment="center"
+        android:textColor="#b29f94"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/congTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#424242"
+        android:fontFamily="@font/reem_kufi"
+        android:padding="4dp"
+        android:text="كـل عـام و انتم بخيـر"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
+
+
+
